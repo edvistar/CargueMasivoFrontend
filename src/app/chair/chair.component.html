@@ -1,0 +1,10 @@
+<h1>{{title}}</h1>
+
+<ul style="display:inline-flex;">
+  <li *ngFor="let sillas of chairs">
+    <h1 style="padding: 1rem;">{{sillas.name}}</h1>
+    <img class="display-block" src="{{sillas.picture}}" alt="" style="height: 100px; width: 100px;">
+    <button class="">Ocupar</button>
+  </li>
+</ul>
+
